@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuCounter", "MenuCounter\MenuCounter.csproj", "{2F96579A-1FD8-470C-A2C0-4CBF93B20FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuCounterTests", "MenuCounterTests\MenuCounterTests.csproj", "{556E2D02-9390-43E4-B252-1AA4BC218EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F96579A-1FD8-470C-A2C0-4CBF93B20FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F96579A-1FD8-470C-A2C0-4CBF93B20FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F96579A-1FD8-470C-A2C0-4CBF93B20FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F96579A-1FD8-470C-A2C0-4CBF93B20FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556E2D02-9390-43E4-B252-1AA4BC218EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556E2D02-9390-43E4-B252-1AA4BC218EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556E2D02-9390-43E4-B252-1AA4BC218EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556E2D02-9390-43E4-B252-1AA4BC218EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
