@@ -76,7 +76,7 @@ namespace MenuCounter.Tests
         public void LoadFileFromPathTest_MalformedFile()
         {
             //Arrange
-            string filePath = "badfile.txt";
+            string filePath = @"..\..\badfile.txt";
 
             //Act
             var actual = Program.LoadFileFromPath(filePath);
@@ -90,7 +90,7 @@ namespace MenuCounter.Tests
         public void LoadFileFromPathTest_ExampleFile()
         {
             //Arrange
-            string filePath = "example.txt";
+            string filePath = @"..\..\example.txt";
 
             //Act
             var actual = Program.LoadFileFromPath(filePath);
